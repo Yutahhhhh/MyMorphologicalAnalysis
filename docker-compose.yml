@@ -1,0 +1,8 @@
+services:
+  ginza-nlp:
+    container_name: ginza-nlp-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/MyMorphologicalAnalysis
